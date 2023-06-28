@@ -14,12 +14,12 @@ li{
 }
 
 h1{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 900;
 }
 
-h2,h4,ul{
-    font-family: 'Raleway', sans-serif;
+h2,h3,h4,ul{
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
 }
   
@@ -31,11 +31,20 @@ a{
 
 
 /**
-Header rules
+Header and nav rules 
 **/
 header nav{
     padding: 10px 20px 10px 0px;
-    border: 2px solid white;
+    width: fit-content;
+    float: right;
+    
+}
+
+#my-logo{
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 40px;
 }
 
 header{
@@ -43,10 +52,13 @@ header{
     position: fixed;
     width: 100%;
     z-index: 1;
-    text-align: right;
-    
 }
-
+.title{
+    display: inline-block;
+    padding-left: 30px;
+    color: white;
+    font-size: 30px;
+}
 nav li{
     text-align: right;
     list-style: none;
@@ -65,8 +77,9 @@ main{
     position: relative;
     top: 70px; 
     bottom: 20px;
-    overflow: scroll;
+    overflow: visible;
     background-size: cover ;
+    width: 100%;
     /* background-image: url(""); */
 }
 
@@ -80,8 +93,9 @@ Welcome section
     text-align: center;
     width: 100%;
     top: 0px;
-    border: 2px solid;
     margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .welcome div{
@@ -120,7 +134,7 @@ Under Welcome section, the about me paragraph
 **/
 
 .about-me{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     background-color: rgb(71, 91, 107);
     /* background-image: url("https://img.freepik.com/free-vector/arcade-game-world-pixel-scene_24640-45861.jpg?w=740&t=st=1687957864~exp=1687958464~hmac=7645cec24149b26d7286b24fc33444ec7605288c6d61d03f5c1a75fbc8c1d80e");
